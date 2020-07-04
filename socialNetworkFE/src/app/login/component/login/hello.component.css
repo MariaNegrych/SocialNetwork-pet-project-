@@ -1,0 +1,10 @@
+.hello {
+  margin: 0 auto;
+  text-align: center;
+  padding: 50px;
+  border: 1px solid lightslategray;
+  width: 50%;
+}
+.input {
+  margin-bottom: 30px;
+}

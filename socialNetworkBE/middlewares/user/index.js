@@ -1,0 +1,10 @@
+module.exports.isUserValid = require('./isUserValid.middleware');
+module.exports.checkIsEmailExists = require('./checkIsEmailExists.middleware');
+module.exports.emailPasswordValidator = require('./emailPasswordValidator.middleware');
+module.exports.checkIsUserExistByEmail = require('./checkIsUserExistByEmail.middleware');
+module.exports.checkIsFriendExistByEmail = require('./checkIsFriendExistById.middleware');
+module.exports.checkIsUserToAddExistById = require('./checkIsUserToAddExistById.middleware');
+module.exports.checkIsRelationsBetweenUsers = require('./checkIsRelationsBetweenUsers.middleware');
+module.exports.checkIsRequestInPending = require('./checkIsRequestInPending.middleware');
+module.exports.checkIsFriendForUser = require('./checkIsFriendForUser.middleware');
+module.exports.checkIsInviteInPending = require('./checkIsInviteInPending.middleware');

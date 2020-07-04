@@ -1,0 +1,19 @@
+<div [ngClass]="'main'">
+  <div>
+    <div [ngClass]="'title'">
+
+      <div [ngClass]="'all-com'">
+        <h1>Pending requests</h1>
+        <app-pending-requests></app-pending-requests>
+
+        <h1>Friends</h1>
+        <app-todos *ngFor="let a of friends" [friend]="a"></app-todos>
+      </div>
+
+      <div>
+        <router-outlet></router-outlet>
+      </div>
+
+    </div>
+  </div>
+</div>

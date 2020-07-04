@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="326d555f-2833-4618-b866-63b8f3bff406" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1eDQLzlVZs2iH94QfaHCEBiMh6j" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="326d555f-2833-4618-b866-63b8f3bff406" name="Default Changelist" comment="" />
+      <created>1593853632507</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1593853632507</updated>
+      <workItem from="1593853636612" duration="81000" />
+      <workItem from="1593853845614" duration="48000" />
+      <workItem from="1593853929622" duration="33000" />
+      <workItem from="1593854014831" duration="14000" />
+      <workItem from="1593854126589" duration="221000" />
+      <workItem from="1593854485900" duration="170000" />
+      <workItem from="1593854695449" duration="37000" />
+      <workItem from="1593855404678" duration="11000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1398" height="204" key="GridCell.Tab.0.bottom" timestamp="1593853716695">
+      <screen x="0" y="23" width="1440" height="804" />
+    </state>
+    <state width="1398" height="204" key="GridCell.Tab.0.bottom/0.23.1440.804@0.23.1440.804" timestamp="1593853716695" />
+    <state width="1398" height="204" key="GridCell.Tab.0.center" timestamp="1593853716694">
+      <screen x="0" y="23" width="1440" height="804" />
+    </state>
+    <state width="1398" height="204" key="GridCell.Tab.0.center/0.23.1440.804@0.23.1440.804" timestamp="1593853716694" />
+    <state width="1398" height="204" key="GridCell.Tab.0.left" timestamp="1593853716693">
+      <screen x="0" y="23" width="1440" height="804" />
+    </state>
+    <state width="1398" height="204" key="GridCell.Tab.0.left/0.23.1440.804@0.23.1440.804" timestamp="1593853716693" />
+    <state width="1398" height="204" key="GridCell.Tab.0.right" timestamp="1593853716694">
+      <screen x="0" y="23" width="1440" height="804" />
+    </state>
+    <state width="1398" height="204" key="GridCell.Tab.0.right/0.23.1440.804@0.23.1440.804" timestamp="1593853716694" />
+  </component>
+</project>

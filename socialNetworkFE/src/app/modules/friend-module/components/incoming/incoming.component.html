@@ -1,0 +1,10 @@
+<div [ngClass]="'items'" [hidden]="isHidden">
+  <div><img src="assets/user-icon.svg" [ngClass]="'img'"></div>
+  <div>{{friend.name}} {{friend.surname}}</div>
+  <div class="font-italic">
+    {{'pending'}}
+  </div>
+  <div><button class="btn btn-primary" (click)="accept(friend.id)">Accept</button></div>
+  <div><button class="btn btn-primary" (click)="ignore(friend.id)">Ignore</button></div>
+</div>
+

@@ -1,0 +1,17 @@
+<div [ngClass]="'main'">
+  <div>
+      <div>
+        <div [ngClass]="'main-app'">
+          <div>
+            <button (click)="onShowUsers()" [ngClass]="'btn'">Users</button>
+          </div>
+
+          <div>
+            <button (click)="onShowFriends()" [ngClass]="'btn'">Friends</button>
+          </div>
+
+        </div>
+      </div>
+  </div>
+</div>
+<router-outlet></router-outlet>

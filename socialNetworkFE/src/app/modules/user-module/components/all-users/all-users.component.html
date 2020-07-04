@@ -1,0 +1,19 @@
+<div [ngClass]="'main'">
+  <div>
+    <div [ngClass]="'input'">
+      <form [formGroup]="form" [ngClass]="'inp'">
+        <input formControlName="search" size="70" required placeholder="John Doe" (ngModelChange)="searchUsers()">
+      </form>
+    </div>
+    <div [ngClass]="'all-com'">
+      <div [ngClass]="'text-center my-3'" *ngIf="!users.length">No searched users</div>
+
+      <app-album *ngFor="let user of users" [user]="user"></app-album>
+    </div>
+
+    <div>
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+</div>
+

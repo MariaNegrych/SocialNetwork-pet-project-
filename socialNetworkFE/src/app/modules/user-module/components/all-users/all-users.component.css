@@ -1,0 +1,12 @@
+.main-app{
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+}
+a{
+  text-decoration: none;
+  cursor: pointer;
+  background: green;
+  color: aliceblue;
+}
+

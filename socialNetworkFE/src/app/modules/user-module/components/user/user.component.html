@@ -1,0 +1,37 @@
+<div [ngClass]="'items'" [hidden]="isHidden">
+
+  <div class="d-flex justify-content-between align-items-center">
+
+    <div><img src="assets/user-icon.svg" [ngClass]="'img'"></div>
+    <div class="ml-3 font-weight-bold text-capitalize">{{user.name}} {{user.surname}}</div>
+
+  </div>
+
+  <div class="font-italic" *ngIf="user.status?.statusId">
+    {{user.status.statusId === 1 ? 'pending' : 'friend'}}
+  </div>
+
+  <div [ngSwitch]="user.status?.statusId">
+
+    <div *ngSwitchCase="null">
+      <button class="btn btn-primary" (click)="addToFriends(user.id)">Add friends</button>
+    </div>
+
+    <div *ngSwitchCase="2">
+      <button class="btn btn-primary" (click)="removeFromFriends(user.id)">Remove friend</button>
+    </div>
+
+    <div *ngIf="user.status?.userId === user.id && user.status?.statusId === 1">
+      <button class="btn btn-primary mx-2" (click)="acceptInvite(user.id)">Accept</button>
+      <button class="btn btn-primary mx-2" (click)="declineInvite(user.id)">Ignore</button>
+    </div>
+
+    <div *ngIf="user.status?.userIdFriend === user.id && user.status?.statusId === 1">
+      <button class="btn btn-primary" (click)="cancelRequest(user.id)">Cancel request</button>
+    </div>
+
+  </div>
+
+</div>
+
+

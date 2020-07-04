@@ -1,0 +1,10 @@
+<div [ngClass]="'items'" [hidden]="isHidden">
+  <div><img src="assets/user-icon.svg" [ngClass]="'img'"></div>
+  <div>{{friend.name}} {{friend.surname}}</div>
+  <div class="font-italic">
+    {{'pending'}}
+  </div>
+  <div>
+    <button class="btn btn-primary" (click)="cancel(friend.id)">Cancel request</button>
+  </div>
+</div>

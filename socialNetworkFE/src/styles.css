@@ -1,0 +1,45 @@
+
+.items {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 600px;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  background: rgba(104, 82, 23, 0.42);
+  color: aliceblue;
+  padding: 10px;
+  margin-right: 1px;
+}
+
+.main-app {
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+}
+
+.img {
+  height: 70px;
+  width: 70px;
+}
+
+.main {
+  display: flex;
+  justify-content: space-around;
+  background: rgb(164, 170, 154);
+  /*border: 1px solid rgba(128, 128, 128, 0.15);*/
+  width: 800px;
+  margin: 0 auto;
+}
+/*.all-com{*/
+/* padding-left: 50px;*/
+/*}*/
+
+.inp {
+  text-align: center;
+}
+

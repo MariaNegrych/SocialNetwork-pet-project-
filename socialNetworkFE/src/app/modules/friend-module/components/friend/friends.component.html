@@ -1,0 +1,10 @@
+<div [ngClass]="'items'" [hidden]="hidden">
+  <div><img src="assets/user-icon.svg" [ngClass]="'img'"></div>
+  <div>{{friend.name}} {{friend.surname}}</div>
+  <div class="font-italic">
+    {{'friend'}}
+  </div>
+  <div>
+    <button class="btn btn-primary" (click)="remove(friend.id)">Remove friend</button>
+  </div>
+</div>
