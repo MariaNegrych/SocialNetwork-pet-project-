@@ -22,7 +22,7 @@
     "jsonwebtoken": "^8.5.1",
     "mysql2": "^2.1.0",
     "sequelize": "^5.21.13",
-    "pm2": "^4.4.0"
+    "pm2": "^5.2.0"
   },
   "devDependencies": {
     "@types/bcrypt": "^3.0.0",
